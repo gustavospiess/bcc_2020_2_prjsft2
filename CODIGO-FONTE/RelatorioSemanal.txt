@@ -1,0 +1,1 @@
+Na pasta Código fonte sua equipe deve postar uma versão compactada do código fonte do projeto E um arquivo contendo o leia-me para a descompactação e instalação do projeto
