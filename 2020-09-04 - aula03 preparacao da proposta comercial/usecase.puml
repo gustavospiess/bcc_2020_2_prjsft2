@@ -1,0 +1,29 @@
+
+
+        ------------------------------------------------------------------------------------------------------------------
+,----.  ,------------------------------.   ,----------------------------------------.   ,--------------------------------.   ,--------------------------------------------.
+|user|  |Entrar comparação de atributos|   |Entrar dados gerais sobre a malha social|   |Executar geração da malha social|   |Executar geração de arquivos HTML navegaveis|
+|----|  |------------------------------|   |----------------------------------------|   |--------------------------------|   |--------------------------------------------|
+|----|--|------------------------------|---|----------------------------------------|---|--------------------------------|---|--------------------------------------------|
+`----'  `------------------------------'   |                                        |   `--------------------------------'   |                                            |
+                                           `----------------------------------------'                                        `--------------------------------------------'
+
+@startuml
+actor user
+package SNetGen {
+    usecase "Entrar comparação de atributos" as uc1
+    usecase "Entrar dados gerais sobre a malha social\n(parâmetros do algoritmo)" as uc2
+    usecase "Executar geração da malha social" as uc3
+    usecase "Executar geração de arquivos HTML navegaveis\n(links para personagens relacioados)" as uc4
+}
+
+user -> uc1
+user -> uc2
+user -> uc3
+user -> uc4
+
+uc1 <.. uc3: <<includes>>
+uc2 <.. uc3: <<includes>>
+uc3 <.. uc4: <<includes>>
+
+@enduml

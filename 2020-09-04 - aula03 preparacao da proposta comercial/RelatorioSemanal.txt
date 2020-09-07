@@ -1,11 +1,31 @@
-Relatório semanal
+# Relatório semanal
 
-Relatar O QUE FOI FEITO:
--
--
--
+## Relatar O QUE FOI FEITO:
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--
+- Diagramado casos de uso do sistema.
+
+Utilizando a ferramenta `plantuml` foi realizada a diagramação dos casos de uso
+para o preenchimento na proposta commercial.
+
+- Diagramado protótipo das telas/formulários do sistema.
+
+Utilizando a ferramenta `plantuml` foi realizada a diagramação do `wireframes`
+detalhando os formulários de entrada de dados para o sistema.
+
+- Identificação de uma logo sobre a licença `Creative Commons`
+
+Foi identificada, por meio de pesquisa, uma logo que poderia ser utilizada como
+placa, estando listada no motor de busca como licenciada para uso.
+
+- Preenchidas a proposta comercial.
+
+Utilizando a ferramenta `LibreOffice` foi realizado o preenchimento da proposta
+comercial, conforme formato disponibilizado pelo professor. Foram preenchidos os
+campos do formulário, utilizando os diagramas e imagens produzidas
+anteriormente. Para evitar erro de formatação (possível caso o arquivo seja
+aberto posteriormente em outras ferramentas) foi realizada a exportação da
+proposta em formato PDF.
+
+## Relatar QUEM FOI O RESPONSÁVEL
+
+- Programador 1 - Gustavo Henrique Spiess

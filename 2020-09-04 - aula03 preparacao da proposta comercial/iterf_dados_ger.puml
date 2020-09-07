@@ -1,0 +1,24 @@
+@startsalt
+{^"Dados Gerais"
+    n               | " 150"
+    max_wth         | "  20"
+    max_btw         | "  10"
+    mte             | " 500"
+    k               | "   5"
+    teta            | "0.01"
+    nbRep           | "   5"
+                    |
+                    | [ OK ]
+}
+
+{^"Rel. Fac"
+
+                            | Gangue Nord | Senhores das sombras | Sabbah | garra vermelha | camarila
+    Gangue Nord             | "0" | "0" | "0" | "0" | "0"
+    Senhores das sombras    | "0" | "0" | "0" | "0" | "0"
+    Sabbah                  | "0" | "0" | "0" | "0" | "0"
+    garra vermelha          | "0" | "0" | "0" | "0" | "0"
+    camarila                | "0" | "0" | "0" | "0" | "0"
+                            |  | | | | [ OK ]
+}
+@endsalt

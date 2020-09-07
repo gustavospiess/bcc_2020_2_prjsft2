@@ -1,0 +1,12 @@
+@startsalt
+{^relação facções
+{#
+    -                       | Controlador | Submisso | Afável | Paciente 
+    Controlador | "0" | "0" | "0" | "0" 
+    Submisso    |  -  | "0" | "0" | "0" 
+    Afável      |  -  |  -  | "0" | "0" 
+    Paciente    |  -  |  -  |  -  | "0" 
+    [ OK ]
+}
+}
+@endsalt

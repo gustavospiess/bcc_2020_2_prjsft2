@@ -1,0 +1,12 @@
+@startsalt
+{^relação facções
+{#
+    -             | Rico | Fornecedor | Consumidor | Prestador 
+    Rico          | "0" | "0" | "0" | "0" 
+    Fornecedor    |  -  | "0" | "0" | "0" 
+    Consumidor    |  -  |  -  | "0" | "0" 
+    Prestador     |  -  |  -  |  -  | "0" 
+    [ OK ]
+}
+}
+@endsalt
