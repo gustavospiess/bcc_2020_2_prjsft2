@@ -1,0 +1,14 @@
+@startsalt
+{^cadastro de atributos
+    "Classe social"   | "Rico"
+    _                 | "Classe média"
+    _                 | [Add valor]
+    ---               | ---
+    "Etnia"           | "Calcasiano"
+    _                 | "Pardo"
+    _                 | "Negro"
+    _                 | [Add valor]
+    ---               | ---
+    [ Add attribute ] | [ OK ]
+}
+@endsalt

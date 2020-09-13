@@ -1,0 +1,17 @@
+@startsalt
+{^consulta de dos personagens
+(X) todos
+( ) por atributo
+^att_1^
+^val^
+( ) por seleção
+"idx"
+===
+{
+    0 - att_1:val; att_2:val; att_3:val | [Selecionar]
+    1 - att_1:val_alternativo; att_2:val; att_3:val | [Selecionar]
+    2 - att_1:val; att_2:val_alternativo; att_3:val | [Selecionar]
+    3 - att_1:val; att_2:val; att_3:val_alternativo | [Selecionar]
+}
+}
+@endsalt

@@ -1,0 +1,93 @@
+
+       ┌─┐
+       ║"│
+       └┬┘
+       ┌┼┐
+        │
+       ┌┴┐
+      user
+       ┌─┐
+       ║"│
+       └┬┘
+       ┌┼┐
+        │
+       ┌┴┐
+
+@startuml
+
+hide circle
+skinparam linetype ortho
+
+entity "admin" as adm {
+    idx : int <<PK>>
+    --
+    email: varchar2(255) <<UK>>
+    pwrd: varchar (255) <<UK>>
+}
+
+entity "parametros_alg" as param_alg {
+    idx: int <<PK>>
+    idx_adm: int <<FK>>
+    --
+    n: int
+    max_wth: int
+    max_btw: int
+    mte: int
+    k: int
+    teta: float
+    nbRep: int
+}
+
+entity "atributo" as att {
+    idx: int <<PK>>
+    idx_adm: int <<FK>>
+    --
+    name: varchar (255)
+}
+
+entity "atributo_valor" as att_val {
+    idx: int <<PK>>
+    idx_att: int <<FK>>
+    --
+    name: varchar (255)
+}
+
+entity "atributo_fator" as att_fat {
+    idx_att_val_a: int <<FK>> <<PK>>
+    idx_att_val_b: int <<FK>> <<PK>>
+    idx_rede: int <<FK>> <<PK>>
+    --
+    factor: float
+}
+
+entity "rede" as rede {
+    idx: int <<PK>>
+    idx_adm: int <<FK>>
+}
+
+entity "personagem" as per {
+    idx: int <<PK>>
+    idx_rede: int <<FK>>
+}
+
+entity "personagem_atributo" as per_val {
+    idx_per: int <<FK>> <<PK>>
+    idx_att_val: int <<FK>> <<PK>>
+}
+
+adm ||..|| param_alg
+
+adm ||..|{ att
+att ||..|{ att_val
+
+att_val ||..|{ att_fat
+att_val ||..|{ att_fat
+rede ||..|{ att_fat
+
+adm ||..|{ rede
+
+rede ||..|{ per
+per ||..|{ per_val
+att_val ||..|{ per_val
+
+@enduml

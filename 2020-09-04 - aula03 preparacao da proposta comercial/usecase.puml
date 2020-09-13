@@ -1,29 +1,52 @@
 
 
+
+
+
+
         ------------------------------------------------------------------------------------------------------------------
 ,----.  ,------------------------------.   ,----------------------------------------.   ,--------------------------------.   ,--------------------------------------------.
-|user|  |Entrar comparação de atributos|   |Entrar dados gerais sobre a malha social|   |Executar geração da malha social|   |Executar geração de arquivos HTML navegaveis|
 |----|  |------------------------------|   |----------------------------------------|   |--------------------------------|   |--------------------------------------------|
 |----|--|------------------------------|---|----------------------------------------|---|--------------------------------|---|--------------------------------------------|
 `----'  `------------------------------'   |                                        |   `--------------------------------'   |                                            |
                                            `----------------------------------------'                                        `--------------------------------------------'
 
 @startuml
-actor user
+
+left to right direction
+
 package SNetGen {
-    usecase "Entrar comparação de atributos" as uc1
-    usecase "Entrar dados gerais sobre a malha social\n(parâmetros do algoritmo)" as uc2
-    usecase "Executar geração da malha social" as uc3
-    usecase "Executar geração de arquivos HTML navegaveis\n(links para personagens relacioados)" as uc4
+    usecase "Cadastrar os parâmetros gerais para o\nalgoritmo de geração" as uc1
+    usecase "Cadastrar os atributos e seus\npossíveis valores" as uc2
+    usecase "Cadastrar os fatores de comparação\nentre valores de atributos" as uc3
+    usecase "Executar geração da malha social" as uc4
+    usecase "Consultar lista com todos os personagens" as uc5
+    usecase "Consultar lista com todos os personagens\npor valor de atributo" as uc6
+    usecase "Consultar lista de personagens relacionados\na um personagem selecionado" as uc7
 }
 
-user -> uc1
-user -> uc2
-user -> uc3
-user -> uc4
+actor producer
+actor consumer
+actor admin
 
-uc1 <.. uc3: <<includes>>
-uc2 <.. uc3: <<includes>>
-uc3 <.. uc4: <<includes>>
+admin -up-|> producer
+producer -up-|> consumer
+
+
+admin -> uc1
+admin -> uc2
+producer -> uc3
+producer -> uc4
+
+consumer -> uc5
+consumer -> uc6
+consumer -> uc7
+
+/' uc1 <.. uc3: <<includes>> '/
+/' uc2 <.. uc3: <<includes>> '/
+/' uc3 <.. uc4: <<includes>> '/
+
+uc7 <.. uc5: <<extends>>
+uc7 <.. uc6: <<extends>>
 
 @enduml

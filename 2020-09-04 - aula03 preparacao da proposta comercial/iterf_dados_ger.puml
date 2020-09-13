@@ -10,15 +10,4 @@
                     |
                     | [ OK ]
 }
-
-{^"Rel. Fac"
-
-                            | Gangue Nord | Senhores das sombras | Sabbah | garra vermelha | camarila
-    Gangue Nord             | "0" | "0" | "0" | "0" | "0"
-    Senhores das sombras    | "0" | "0" | "0" | "0" | "0"
-    Sabbah                  | "0" | "0" | "0" | "0" | "0"
-    garra vermelha          | "0" | "0" | "0" | "0" | "0"
-    camarila                | "0" | "0" | "0" | "0" | "0"
-                            |  | | | | [ OK ]
-}
 @endsalt
