@@ -1,87 +1,227 @@
-Relatório semanal
+# Relatório semanal
 
 
-2020-09-25 - aula06 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+## 2020-08-28 - aula02 - desenvolvimento hello world
+### Relatar O QUE FOI FEITO:
+
+- Diagramado casos de uso do sistema.
+
+Utilizando a ferramenta `plantuml` foi realizada a diagramação dos casos de uso
+para o preenchimento na proposta commercial.
+
+- Diagramado protótipo das telas/formulários do sistema.
+
+Utilizando a ferramenta `plantuml` foi realizada a diagramação do `wireframes`
+detalhando os formulários de entrada de dados para o sistema.
+
+- Identificação de uma logo sobre a licença `Creative Commons`
+
+Foi identificada, por meio de pesquisa, uma logo que poderia ser utilizada como
+placa, estando listada no motor de busca como licenciada para uso.
+
+- Preenchidas a proposta comercial.
+
+Utilizando a ferramenta `LibreOffice` foi realizado o preenchimento da proposta
+comercial, conforme formato disponibilizado pelo professor. Foram preenchidos os
+campos do formulário, utilizando os diagramas e imagens produzidas
+anteriormente. Para evitar erro de formatação (possível caso o arquivo seja
+aberto posteriormente em outras ferramentas) foi realizada a exportação da
+proposta em formato PDF.
+
+### Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+## 2020-09-11 - aula04 entrega proposta comercial - inicio desenv
+
+### Relatar O QUE FOI FEITO:
+
+- Apresentada a proposta comercial para o cliente (professor mauro)
+
+Foi realizada uma reunião para discutirmos os pontos pendentes na proposta
+comercial, e foram identificadas alguns pontos de melhoria.
+
+- Reconstrução da proposta comercial
+
+Foi refeita a proposta comercial tendo em vista os insights obtidos na reunião.
+Após isso foi, realizada uma nova revisão da proposta comercial com o cliente.
+
+- Construção da apresentação
+
+Foi realizada construção da apresentação da proposta comercial para o restante
+da turma, com base nas propostas comerciais.
+
+### Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+## 2020-09-18 - aula05 apresentação da proposta para a turma
+###Relatar O QUE FOI FEITO:
+
+- Apresentação da proposta comercial para a turma.
+
+Foi realizada a apresentação conforme documento.
+
+- Confirmação da configuração do ambiente local.
+
+Realizados os testes garantindo que as bibliotecas `NetWorkX` e `Numpy` estão
+disponíveis para o desenvolvimento (necessário para os próximos passos do
+desenvolvimento).
+
+###Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+## 2020-09-25 - aula06 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
+
+- Realizada a implementação do algorismo con conforme proposto pelo artigo.
+
+Foi realizada a implementação, e testes extensos para averiguar as propriedades
+descritas, comunidades densas, homogêneas.
+
+- Implementada forma de visualização para os testes.
+
+Foi implementada uma forma de visualização para realizar os testes.
+
+---
+
+Ainda é necessário realizar mais testes, limpar e documentar mais adequadamente
+o código, por mais que os nomes dos processos sejam equivalentes aos nomes
+usados no artigo, o código como está hoje será de difícil manutenção.
+
+###Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+##2020-10-02 - aula07 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
+
+- Refinada a implementação do algoritmo
+
+Foi realizada mais uma bateria de testes enquanto o código era refatorado para
+melhorar o tempo de execução e a legibilidade.
+
+- Adicionada documentação na implementação.
+
+Foi adicionada uma documentação nos métodos e nas classes para facilitar a
+compreensão futura.
+
+- Realizados testes com geração de uma interface Django.
+
+Foram realizados alguns testes com diferentes ferramentas para a construção de
+uma interface de uso, foi identificada a ferramenta a ser utilizada, disponível
+do link a baixo:
+
+https://mmcardle.github.io/django_builder/
+
+###Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+##2020-10-09 - aula08 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
+
+- Identificada a inviabilidade do `DjangoBuilder`
+
+Utilizando o `DjangoBuilder`, não foi possível fazer a execução do mesmo
+localmente de forma estável. Por conta de dependências, não estava sendo uma
+solução aceitável para o desenvolvimento dos formulários.
+
+- Identificada como tecnologia para o desenvolvimento dos formulários o
+    `DjangoCrispyForms`.
+
+Foi identificada essa alternativa para o desenvolvimento dos formulário,
+utilizado um conjunto de formulários de exemplo para desenvolver os formulários
+seguintes.
+
+- Desenvolvido o formulário de entrada dos parâmetros gerais do algoritmo.
+
+Utilizando a ferramenta identificada, foi desenvolvido o formulário de entrada
+de dados, algumas validações que seria interessantes não foram possíveis de
+serem desenvolvidas, mas não são critérios obrigatórios, os filtros de mínimo e
+máximo foram inseridos de forma adequada.
+
+- Pesquisado para o desenvolvimento do formulário dinâmico de cadastro de
+    características.
+
+Realizada pesquisa de como utilizar sub formulários no Django para realizar o
+desenvolvimento de um formulário dinâmico. Não foi identificada uma solução
+viável e portanto mais pesquisa será necessária.
+
+###Relatar QUEM FOI O RESPONSÁVEL:
+
+- Programador 1 - Gustavo Henrique Spiess
+
+
+##2020-10-16 - aula09 Avaliacao1
+###Relatar O QUE FOI FEITO:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-02 - aula07 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+###Relatar QUEM FOI O RESPONSÁVEL:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-09 - aula08 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+##2020-10-23 - aula10 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-16 - aula09 Avaliacao1
-Relatar O QUE FOI FEITO:
+###Relatar QUEM FOI O RESPONSÁVEL:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-23 - aula10 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+##2020-10-30 - aula11 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-10-30 - aula11 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+###Relatar QUEM FOI O RESPONSÁVEL:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-06 - aula12 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+##2020-11-06 - aula12 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-13 - aula13 Avaliacao2
-Relatar O QUE FOI FEITO:
+###Relatar QUEM FOI O RESPONSÁVEL:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
--
--
--2020-11-20 - aula14 desenvolvimento do projeto
-Relatar O QUE FOI FEITO:
+##2020-11-13 - aula13 Avaliacao2
+###Relatar O QUE FOI FEITO:
 -
 -
 -
 
-Relatar QUEM FOI O RESPONSÁVEL
+###Relatar QUEM FOI O RESPONSÁVEL:
 -
 -
--2020-11-27 - aula15 Apresentação ao prof e produção video
+-
+
+##2020-11-20 - aula14 desenvolvimento do projeto
+###Relatar O QUE FOI FEITO:
+-
+-
+-
+
+###Relatar QUEM FOI O RESPONSÁVEL:
+-
+-
+-
+
+##2020-11-27 - aula15 Apresentação ao prof e produção video
 Publicação do vídeo no repositório do GIT
-2020-12-04 - aula16 ApresentacaoFinal a turma
+
+##2020-12-04 - aula16 ApresentacaoFinal a turma
+
